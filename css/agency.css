@@ -49,6 +49,9 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
+.github-chart {
+  border: 5px solid black;
+}
 .bg-light-gray {
   background-color: #eeeeee;
 }
@@ -367,102 +370,6 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
-.timeline {
-  list-style: none;
-  padding: 0;
-  position: relative;
-}
-.timeline:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #f1f1f1;
-  left: 40px;
-  margin-left: -1.5px;
-}
-.timeline > li {
-  margin-bottom: 50px;
-  position: relative;
-  min-height: 50px;
-}
-.timeline > li:before,
-.timeline > li:after {
-  content: " ";
-  display: table;
-}
-.timeline > li:after {
-  clear: both;
-}
-.timeline > li .timeline-panel {
-  width: 100%;
-  float: right;
-  padding: 0 20px 0 100px;
-  position: relative;
-  text-align: left;
-}
-.timeline > li .timeline-panel:before {
-  border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
-  right: auto;
-}
-.timeline > li .timeline-panel:after {
-  border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
-}
-.timeline > li .timeline-image {
-  left: 0;
-  margin-left: 0;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  z-index: 100;
-  background-color: #026A78;
-  color: white;
-  border-radius: 100%;
-  border: 7px solid #f1f1f1;
-  text-align: center;
-}
-.timeline > li .timeline-image h4 {
-  font-size: 10px;
-  margin-top: 12px;
-  line-height: 14px;
-}
-.timeline > li.timeline-inverted > .timeline-panel {
-  float: right;
-  text-align: left;
-  padding: 0 20px 0 100px;
-}
-.timeline > li.timeline-inverted > .timeline-panel:before {
-  border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
-  right: auto;
-}
-.timeline > li.timeline-inverted > .timeline-panel:after {
-  border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
-}
-.timeline > li:last-child {
-  margin-bottom: 0;
-}
-.timeline .timeline-heading h4 {
-  margin-top: 0;
-  color: inherit;
-}
-.timeline .timeline-heading h4.subheading {
-  text-transform: none;
-}
-.timeline .timeline-body > p,
-.timeline .timeline-body > ul {
-  margin-bottom: 0;
-}
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -549,64 +456,6 @@ section h3.section-subheading {
 }
 .team-member p {
   margin-top: 0;
-}
-aside.clients img {
-  margin: 50px auto;
-}
-section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-section#contact .section-heading {
-  color: white;
-}
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-section#contact .form-group input.form-control {
-  height: auto;
-}
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-section#contact .form-control:focus {
-  border-color: #026A78;
-  box-shadow: none;
-}
-section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
-}
-section#contact .text-danger {
-  color: #01535F;
 }
 footer {
   padding: 25px 0;
@@ -743,4 +592,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #026A78;
+}
+.techImages img {
+  width: 100px;
+  margin: 10px 25px 25px 10px;
 }
