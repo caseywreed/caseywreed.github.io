@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -52,7 +52,7 @@ h6 {
   padding-top: 10px;
   background-color: #026A78;
 }
-.buzzed-in-pic {
+.portfolio-pic {
   border: 3px solid #026A78;
 }
 .bg-light-gray {
