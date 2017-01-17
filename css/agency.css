@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -166,6 +166,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
+  padding-top: 10px;
 }
 .navbar-custom .navbar-toggle {
   background-color: #026A78;
@@ -198,6 +199,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #013e46;
+}
+.navbar-custom .navbar-logo {
+  max-width: 350px;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -244,7 +248,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -263,7 +267,7 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
@@ -287,7 +291,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -354,7 +358,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -521,7 +525,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -591,4 +595,7 @@ body {
 .techImages img {
   width: 100px;
   margin: 10px 25px 25px 10px;
+}
+.breakup-div {
+  background-color: #243E5E;
 }
